@@ -4,9 +4,9 @@ int main(void)
 {
 	char* prog_name = (char*)malloc(MAX_NAME_LONG * sizeof(char));
 	
-	printf("ProgKiller version 0.1\nCopyright (c) 2020 Myth. All rights reserved.\n");
+	printf("ProgKiller version 0.11\nCopyright (c) 2020 Myth. All rights reserved.\n");
 	
-	printf("\nInput the process name of the porgram you want to kill:\n");
+	printf("\nInput the process name of the program you want to kill:\n");
 	scanf("%s", prog_name);
 
 	while (1)
