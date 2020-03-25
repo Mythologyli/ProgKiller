@@ -5,7 +5,7 @@ int main(void)
 	int prog_num = 0; /*进程数*/
 	char* prog_name[MAX_PROG_NUM] = { NULL }; /*以数组形式储存进程名称*/
 
-	printf("ProgKiller version 1.00\nCopyright (c) 2020 Myth. All rights reserved.\n");
+	printf("ProgKiller version 1.20\nCopyright (c) 2020 Myth. All rights reserved.\n");
 	printf("\nInput the process names of the programs you want to kill. You don't need to type \".exe\".\nType \"#\" to end.\n");
 
 	for (int i = 0; i < MAX_PROG_NUM; i++)
@@ -17,6 +17,7 @@ int main(void)
 		if (strcmp(prog_name[i], "#") == 0) /*输入"#"时，结束输入*/
 		{
 			prog_num = i;
+			printf("\n============ KILL LOG ============\n\n");
 			break;
 		}
 		else strcat(prog_name[i], ".exe"); /*添加.exe后缀*/

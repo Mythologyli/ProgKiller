@@ -2,9 +2,9 @@
 
 int kill(char* prog_name)
 {    
-	char cmd[CMD_PART_LOND + MAX_NAME_LONG + 100] = "taskkill /f /im ";
+	char cmd[CMD_PART_LOND + 1 + MAX_NAME_LONG + 1] = "taskkill /f /im ";
 
-	strcat(strcat(cmd, prog_name), " >nul 2>nul"); /*组成完整的CMD*/
+	strcat(strcat(cmd, prog_name), " >nul 2>nul && if errorlevel 0 echo %date% %time%  Kill!"); /*组成完整的CMD*/
     
 	system(cmd); 
 
