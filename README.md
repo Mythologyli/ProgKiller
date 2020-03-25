@@ -1,4 +1,4 @@
-# ProgKiller    ![](https://img.shields.io/badge/Build-pass-brightgreen)    [![](https://img.shields.io/badge/Release-v1.00-brightgreen)](https://github.com/Mythologyli/ProgKiller/releases) 
+# ProgKiller    ![](https://img.shields.io/badge/Build-pass-brightgreen)    [![](https://img.shields.io/badge/Release-v1.20-brightgreen)](https://github.com/Mythologyli/ProgKiller/releases) 
 ProgKiller is a tool that can help you stop certain programs and concentrate on your working. Now it is able to stop multiple  processes at one time. More functions will be added soon.
 
 ## How to use ProgKiller?
