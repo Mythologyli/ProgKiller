@@ -1,8 +1,8 @@
-# ProgKiller    ![](https://img.shields.io/badge/Build-pass-brightgreen)    [![](https://img.shields.io/badge/Release-v0.11-brightgreen)](https://github.com/Mythologyli/ProgKiller/releases) 
-ProgKiller is a tool that can help you stop certain programs and concentrate on your working. In the preview version, it is able to stop one process at one time. More functions will be added soon.
+# ProgKiller    ![](https://img.shields.io/badge/Build-pass-brightgreen)    [![](https://img.shields.io/badge/Release-v1.00-brightgreen)](https://github.com/Mythologyli/ProgKiller/releases) 
+ProgKiller is a tool that can help you stop certain programs and concentrate on your working. Now it is able to stop multiple  processes at one time. More functions will be added soon.
 
 ## How to use ProgKiller?
-Run the tool, and input the process name of the program you want to stop. Please don't forget to type ".exe". When you want to stop the tool, just click the close button.
+Run the tool, and input the process names of the programs you want to kill. You don't need to type ".exe". Type "#" to end. When you want to stop the tool, just click the close button.
 
 ## Build
 This tool can be built in Microsoft Visual Studio 2019. 
