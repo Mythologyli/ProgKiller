@@ -5,7 +5,7 @@ int main(void)
 	int prog_num = 0; /*进程数*/
 	char* prog_name[MAX_PROG_NUM] = { NULL }; /*以数组形式储存进程名称*/
 
-	printf("ProgKiller version 0.11\nCopyright (c) 2020 Myth. All rights reserved.\n");
+	printf("ProgKiller version 1.00\nCopyright (c) 2020 Myth. All rights reserved.\n");
 	printf("\nInput the process name of the program you want to kill. You don't need to type \".exe\".\nType \"#\" to end.\n");
 
 	for (int i = 0; i < MAX_PROG_NUM; i++)
