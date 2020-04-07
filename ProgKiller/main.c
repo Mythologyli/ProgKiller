@@ -4,7 +4,7 @@ int main(void)
 {
 	struct prog_name* head;
 	
-	printf("ProgKiller version 1.20\nCopyright (c) 2020 Myth. All rights reserved.\n");
+	printf("ProgKiller version 1.50\nCopyright (c) 2020 Myth. All rights reserved.\n");
 	printf("\nInput the process names of the programs you want to kill. You don't need to type \".exe\".\nType \"#\" to end.\n");
 
 	head = read();
