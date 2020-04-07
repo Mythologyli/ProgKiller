@@ -127,6 +127,7 @@
   <ItemGroup>
     <ClCompile Include="kill.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="read.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="global.h" />

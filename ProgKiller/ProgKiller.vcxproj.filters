@@ -21,6 +21,9 @@
     <ClCompile Include="kill.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="read.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="global.h">
